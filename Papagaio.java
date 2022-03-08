@@ -2,12 +2,17 @@ public class Papagaio extends Ave{
     @Override
     public String voar(){
         //Todo Auto-generated method stub
-        return "Voa mal";
+        return "Voa Bem";
     }
 
     @Override
     public String nadar(){
-        return "Muito mal";
+        return "Nada muito mal";
+    }
+
+    @Override
+    public String emitirSom(){
+        return "Emite o som Falar";
     }
 
 }

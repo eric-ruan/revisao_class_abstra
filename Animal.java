@@ -10,5 +10,6 @@ public abstract class Animal{
         this.nome = nome;
     }
 
+    public abstract String emitirSom();
     
 }

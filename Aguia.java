@@ -8,4 +8,9 @@ public class Aguia extends Ave{
     public String voar(){
         return "Voa maravilhosamente bem";
     }
+
+    @Override
+    public String emitirSom(){
+        return "Emite o som Gritar";
+    }
 }
